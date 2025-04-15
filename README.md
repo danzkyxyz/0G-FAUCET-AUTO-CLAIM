@@ -76,8 +76,5 @@ If you find this script helpful and want to support its development, consider se
 ```
 Your support is greatly appreciated and helps keep the project maintained!
 
-## JOIN MY CHANNEL 🚀
-[TELEGRAM](https://t.me/airdropdxns)
-
 ## Disclaimer ⚠️
 This tool is for educational and testing purposes only. Use it responsibly and in accordance with the 0G faucet's terms of service. The author is not responsible for any misuse or issues arising from the script's use.
