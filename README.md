@@ -32,7 +32,7 @@ cd 0g-faucet-auto-claim
 - Add your 2Captcha API key to the CAPTCHA_API_KEY variable.
 - Prepare wallets.txt with wallet addresses (one per line).
 - Add proxies to proxies.txt (format: http://user:pass@host:port).
-- I recommend using proxies from [DATAIMPULSE](https://dataimpulse.com/?aff=124620) for more affordable and budget-friendly prices (cost juat $5 for 5GB proxy data).
+- I recommend using proxies from [DATAIMPULSE](https://dataimpulse.com/?aff=124620) for more affordable and budget-friendly prices (cost juSt $5 for 5GB proxy data).
 
 
 
