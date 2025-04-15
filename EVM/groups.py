@@ -3,7 +3,7 @@ def split_wallets(input_file='wallet.txt', chunk_size=50):
         wallets = [line.strip() for line in f if line.strip()]
 
     total_wallets = len(wallets)
-    num_files = (total_wallets + chunk_size - 1) // chunk_size  # Pembulatan ke atas
+    num_files = (total_wallets + chunk_size - 1) // chunk_size  # Round up
 
     for i in range(num_files):
         start = i * chunk_size
@@ -15,7 +15,7 @@ def split_wallets(input_file='wallet.txt', chunk_size=50):
             for address in chunk:
                 f_out.write(address + '\n')
 
-    print(f"Selesai membagi {total_wallets} wallet menjadi {num_files} file.")
+    print(f"Finished splitting {total_wallets} wallets into {num_files} files.")
 
 if __name__ == "__main__":
     split_wallets()
